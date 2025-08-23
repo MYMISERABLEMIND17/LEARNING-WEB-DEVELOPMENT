@@ -4,4 +4,5 @@ my expectation
 2} box ka color change hona chahiye .
 3} ek start button hona chahiye 
 4} if possible ek counter hona chahiye, jo start click krne pe onn ho jaye .
- 
+5} todo infinite hone chahiye 
+6} if possible toh jo linethrough ho usko bottom mai bhej do 
