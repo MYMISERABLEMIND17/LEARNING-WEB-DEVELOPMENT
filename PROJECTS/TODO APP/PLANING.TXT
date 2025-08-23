@@ -3,4 +3,5 @@ my expectation
 1} basicallly line through  draw honi chahiye click karne pe .
 2} box ka color change hona chahiye .
 3} ek start button hona chahiye 
-4} if possible ek counter hona chahiye, jo start click krne pe onn ho jaye . 
+4} if possible ek counter hona chahiye, jo start click krne pe onn ho jaye .
+ 
