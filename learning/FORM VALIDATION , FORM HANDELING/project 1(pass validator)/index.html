@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Validator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Create Account</h2>
+    <form id="registerForm">
+      
+      <!-- Name -->
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+
+      <!-- Email -->
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <!-- Password -->
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required />
+
+      <!-- Confirm Password -->
+      <label for="confirm">Confirm Password</label>
+      <input type="password" id="confirm" placeholder="Confirm password" required />
+
+      <!-- Password strength bar -->
+      <div class="strength-bar">
+        <div id="strength"></div>
+      </div>
+
+      <!-- Password requirements checklist -->
+      <ul class="requirements">
+        <li id="length">Minimum 8 characters</li>
+        <li id="upper">At least one uppercase letter</li>
+        <li id="lower">At least one lowercase letter</li>
+        <li id="number">At least one number</li>
+        <li id="symbol">At least one special character</li>
+      </ul>
+
+      <!-- Password match message -->
+     <p id="matchMsg"></p>
+
+      <!-- Submit -->
+      <button type="submit" id="submitBtn">Register</button>
+    </form>
+  </div>
+</body>
+</html>

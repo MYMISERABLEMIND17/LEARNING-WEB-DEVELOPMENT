@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: #222222;
+    }
+    #myForm {
+        display:flex;
+    }
+    #nameerr{
+        display: none;
+        color: red;
+    }
+
+</style>
+</head>
+
+<body>
+    
+
+    <form id="myForm">
+        <div>
+            
+            <input  type="text" id="yname" placeholder="Enter your name" >
+            
+            <h5 id = "nameerr"> * enter the name greater than 2 letters</h5>
+            <br><br>
+            <input  type="email" id="mail" placeholder="Enter your mail" >
+            <br><br>
+            <input  type="password" id="password" placeholder="Enter your password" >
+            <br><br>
+            <button type="submit">Submit</button>
+        </div>
+
+
+<!-- // you cn use regix for validation  -->
+
+
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
+
+
+
+
+
