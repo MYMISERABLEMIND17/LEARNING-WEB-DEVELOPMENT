@@ -56,5 +56,3 @@
 // taki inner function usse access kar sake
 // to ye closure ka concept hai
 
-
- 

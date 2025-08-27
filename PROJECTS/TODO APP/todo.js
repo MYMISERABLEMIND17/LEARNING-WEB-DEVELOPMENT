@@ -1,7 +1,7 @@
 let tasktext = document.querySelector(".task-text");
 let todoinput = document.querySelector("#todo-input");
 let thumb = document.querySelector(".thumb");
-let deletebtn = document.querySelector(".delete-btn");
+let deletebtn = document.querySelector(".deletebtn");
 let addbtn = document.querySelector("#add-btn");
 
 todoinput.addEventListener("input", function() {
@@ -25,10 +25,17 @@ addbtn.addEventListener("click", function(z) {
 let todoitem = document.createElement("li");
 let circle = document.createElement("div");
 let tasktext = document.createElement("span");
+tasktext.textContent = todoinput.value;
 let deletebtn = document.createElement("button");
 
-addbtn.appendChild(todoitem);
+
+todoitem.appendChild(addbtn);
 todoitem.appendChild(circle);
 todoitem.appendChild(tasktext);
 todoitem.appendChild(deletebtn);    
+circle.style.backgroundColor = "rgba(138, 35, 35, 1)";
+tasktext.style.textDecoration =none;
 })
+todolist.appendChild(todoitem);
+console.log(todolist);
+
