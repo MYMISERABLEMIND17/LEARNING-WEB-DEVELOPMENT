@@ -3,23 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern To-Do List</title>
+  <title>Todo List</title>
   <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-  <div class="todocontainer">
-    <h1>My To-Do List</h1>
-    <div class="input-container">
-      <input type="text" id="todoinput" placeholder="Add a new task...">
-      <button id="addbtn">+</button>
+  <div class="box">
+    <div class="head">My Todo</div>
+    <div class="inpt">
+      <input type="text" placeholder="Add a task...">
+      <button>Add</button>
     </div>
-    <ul id="todolist">
-      <li class="todoitem">
+    <ul class="list">
+      <li>
+        <span class="txt">Sample Task</span>
+        <div class="act">
+          <button class="done">✔</button>
+          <button class="del">✖</button>
+        </div>
+      </li>
+      <li>
+        <span class="txt">Another Task</span>
+        <div class="act">
+          <button class="done">✔</button>
+          <button class="del">✖</button>
+        </div>
       </li>
     </ul>
   </div>
-
-
-  <script src="todo.js"></script>
+<script src="todo.js"></script>
 </body>
 </html>
