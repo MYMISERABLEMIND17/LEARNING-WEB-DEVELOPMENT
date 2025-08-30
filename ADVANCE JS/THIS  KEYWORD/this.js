@@ -42,11 +42,42 @@
 // ----------------
 // globa => window
 // function => window
-// mothod with es5 function => object
-// mothod with arrow function => window
+// method with es5 function => object
+// method with arrow function => window
 // es5 functon inside the es5 method => object
 // event handler => element jispe event listener lga hai(element)
 // class = blank object 
 
 
+
+// manual binding , bind , call and apply 
+// function ko call karte waqt aap decide kar sakte ho ki uski value kya hogi
+
+// let obj ={
+//     name : "tom",
+
+// }
+// function abcd(){
+//     console.log(this.name);
+
+// }
+// abcd.call(obj) ; 
+// // now this becomes obj 
+
+// apply 
+let obj = {
+    name : "tom" ,
+    age :  25, 
+}
+function callme (a , b , c){
+    console.log(this, a, b , c );
+    
+}
+callme.apply(obj , [1, 2 , 4])
+// bas apply 2 values ko pass hone deta hai, one is this itself and other is array jisme different type of value hongi 
+// kam use hota  hai 
+
+// bind 
+let fnc = callme.bind(obj , 1 ,3, 4)
+// basically call jaisa he hai bas ek copy create karta hai , direct function ko call nhi karta '
 
