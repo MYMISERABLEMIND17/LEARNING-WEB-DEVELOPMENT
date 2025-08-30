@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Form & Cards</title>
+    <link rel="stylesheet" href="proj1.css" />
+</head>
+<body>
+
+    <!-- User Form -->
+    <div class="form-container">
+    <h2>Create User</h2>
+    <form>
+        <label for="name">Full Name</label>
+        <input 
+        type="text" 
+        id="name" 
+        placeholder="Enter full name" 
+        />
+
+        <label for="username">Username</label>
+        <input 
+        type="text" 
+        id="username" 
+        placeholder="@username" 
+        />
+
+        <label for="bio">Bio</label>
+        <textarea 
+        id="bio" 
+        rows="3" 
+        placeholder="Write a short bio..."
+        ></textarea>
+
+        <button type="submit">Add User</button>
+    </form>
+    </div>
+
+    <!-- User Cards -->
+    <div class="cards-container">
+    <div class="user-card">
+        <h3>John Doe</h3>
+        <p class="username">@johndoe</p>
+        <p>Frontend Developer | Loves React & Tailwind</p>
+    </div>
+
+    <div class="user-card">
+        <h3>Jane Smith</h3>
+        <p class="username">@janesmith</p>
+        <p>UI/UX Designer | Coffee enthusiast ☕</p>
+    </div>
+    </div>
+
+
+    <script src = proj1.js></script>
+</body>
+</html>
