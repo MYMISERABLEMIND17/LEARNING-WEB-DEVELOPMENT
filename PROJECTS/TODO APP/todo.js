@@ -3,7 +3,7 @@
 let addbtn = document.querySelector(".addbtn")
 let input = document.querySelector(".userinp")
 addbtn.addEventListener("click", function(e){
-    e.preventDefault()
+    e.preventDefault()    
     console.log(input.value);
     // step 1 => // create the similar element like tgs
     let container = document.createElement("div") 
