@@ -33,10 +33,10 @@ function subtract(a, b) {
 
 function divide(a, b) {
     return a / b;
-}
+}  
 
-function doOperation(a, b, op) {
-    return op(a, b)
+function doOperation(a, b, operation) {
+    return operation(a, b)
 }
     
-console.log(doOperation(1, 2, sum))
+console.log(doOperation(1, 2, subtract))
