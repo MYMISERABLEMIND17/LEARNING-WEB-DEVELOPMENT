@@ -1,0 +1,6 @@
+basically jab initial to final position aana hai to gsap.to use karo 
+or agar final to initial position pe wapas aana hai toh gsap.from use karte hain 
+
+delay
+repeat  , and (repeat:-1)=> infinite loop , repetation
+yoyo => for toand fro motion 
