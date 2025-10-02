@@ -69,5 +69,40 @@
 
 // .then and .catch
 
+// create a function 
+function asyFnc(){
+    return new Promise((resolve , reject)=>{
+            setTimeout(() => {
+                console.log("hey this is the data we want ") ;
+                setTimeout(()=>{
+                    resolve("execution complete ")
+                } ,1000)
+        } ,4000)
+    })
+}
 
 
+function asyFnc2(){
+    return new Promise((resolve , reject)=>{
+            setTimeout(() => {
+                console.log("hey this is the data we want ") ;
+                setTimeout(()=>{
+                    resolve("execution complete ")
+                } ,1000)
+        } ,4000)
+    })
+}
+console.log("fetching data 1........");
+
+asyFnc.then 
+let p1 = asyFnc() ; 
+p1.then((res)=>{
+    console.log(res);
+    console.log("fetching data 2........");
+    asyFnc.then 
+    let p2 = asyFnc() ; 
+    p2.then((resolve)=>{
+    console.log(resolve);
+    
+    })  
+}) 
