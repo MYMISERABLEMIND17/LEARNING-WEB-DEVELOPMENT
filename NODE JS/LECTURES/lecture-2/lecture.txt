@@ -2,3 +2,12 @@
 
 --> npm is like a play store of codes(called packages) 
 initiazation
+
+npm init ==> this will create the file package.json 
+--> the important topics we are going to study 
+ > write file 
+ >append file
+ >copy file 
+ >rename 
+ >unlink
+
