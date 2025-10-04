@@ -1,0 +1,4 @@
+// introduction => node js is noting but a javascript server runtime environment 
+
+--> npm is like a play store of codes(called packages) 
+initiazation
