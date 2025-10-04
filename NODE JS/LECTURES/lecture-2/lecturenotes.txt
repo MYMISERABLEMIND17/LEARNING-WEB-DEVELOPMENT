@@ -11,3 +11,14 @@ npm init ==> this will create the file package.json
  >rename 
  >unlink
 
+--> WRITE FILE (fs.writeFile(path, data[, options], callback)) 
+fs.writeFile("trial.txt" , "helooo this is a trial",function(err){
+
+})
+this is how the syntax looks like 
+
+
+--> appendFile( fs.writeFile(path, data[, options], callback))
+you can refer to docs for more 
+
+
