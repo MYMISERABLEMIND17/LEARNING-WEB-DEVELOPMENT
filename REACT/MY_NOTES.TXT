@@ -9,7 +9,7 @@ step 2>> if the necessary packages are not installed the type "npm i", this will
 step 3>> then npm run start , this will create the local host for the project
 
 
-LECTURE=>4  
+LECTURE=>3
 --> in both the method , create the project from the react or from the vite , both will work and the execution flow looks like 
 --> APP.JSX >> MAIN.JSX >> INDEX.HTML AND THEN THE HTML FILE WILL LOAD IN BROWSER
 --> if you are working on the vite make sure {
@@ -20,3 +20,6 @@ LECTURE=>4
 --> this is how you import the component in main.jsx {
     import Mmy from './Mmy.jsx' (Mmy is component name )
 }
+
+
+LECTURE =>  4 
