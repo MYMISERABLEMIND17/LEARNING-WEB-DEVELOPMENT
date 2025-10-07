@@ -1,6 +1,10 @@
 LECTURE 1 =>
 --> vite and parcel are utilities 
--->you can create the app from => npxcreate-react-app 01basics
+
+-->you can create the app from => npxcreate-react-app 01basics, if you create the project in this way you are going to get lots of files ,unnecessary files
 
 --> you can also create the project from the vite 
-npm create vite@latest 
+step 1>>npm create vite@latest 
+step 2>> if the necessary packages are not installed the type "npm i", this will install dependencies
+step 3>> then npm run start , this will create the local host for the project
+
