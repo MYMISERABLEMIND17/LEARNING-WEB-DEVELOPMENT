@@ -1,3 +1,6 @@
 LECTURE 1 =>
-vite and parcel are utilities 
-you can create the app from => npxcreate-react-app 01basics
+--> vite and parcel are utilities 
+-->you can create the app from => npxcreate-react-app 01basics
+
+--> you can also create the project from the vite 
+npm create vite@latest 
