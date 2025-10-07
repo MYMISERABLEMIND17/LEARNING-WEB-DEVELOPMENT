@@ -8,3 +8,15 @@ step 1>>npm create vite@latest
 step 2>> if the necessary packages are not installed the type "npm i", this will install dependencies
 step 3>> then npm run start , this will create the local host for the project
 
+
+LECTURE=>4  
+--> in both the method , create the project from the react or from the vite , both will work and the execution flow looks like 
+--> APP.JSX >> MAIN.JSX >> INDEX.HTML AND THEN THE HTML FILE WILL LOAD IN BROWSER
+--> if you are working on the vite make sure {
+    1>> name the component with first capital letter
+    2>> complete the component name with .jsx extension 
+}
+--> write this in your component i.e (export default Mmy) ,this will export the component 
+--> this is how you import the component in main.jsx {
+    import Mmy from './Mmy.jsx' (Mmy is component name )
+}
