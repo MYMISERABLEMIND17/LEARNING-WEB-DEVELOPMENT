@@ -1,0 +1,3 @@
+LECTURE 1 =>
+vite and parcel are utilities 
+you can create the app from => npxcreate-react-app 01basics
