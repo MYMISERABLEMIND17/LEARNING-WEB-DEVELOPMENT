@@ -23,4 +23,8 @@ LECTURE=>3
 
 
 LECTURE =>  4 
-till now i have learnt soo many things 
+till now i have learnt soo many things ,in this lecture we learn 
+--> we create our own library 
+--> we create the function , and then create a object which works as the blue print of our library
+--> we also create the element with document.createElement
+-->. then we also call the whole component through the html, and run it on local host 
