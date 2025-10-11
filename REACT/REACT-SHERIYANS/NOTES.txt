@@ -1,0 +1,17 @@
+---> there are 2 type of import and export in js 
+        1> default 
+        2>named export => named export mai import karte time {variable ka name }
+
+
+--> real dom and virtual dom 
+        real dom => jo actually web ka structure hota hai , full dom tree 
+        virtual dom => this is react ke khud ka dom which is the copy of the real dom toh ab agar khuch bhi update karns huaa toh fir vitual dom mai hoga .
+        
+
+
+
+
+
+
+
+
