@@ -11,11 +11,9 @@
 --> App.jsx >> main.jsx >> html file >> browser 
 --> eslint => this helps in the make the custom rules 
 
+--> to declare a class of any element we use className , not only class
+--> if you want to write with a variable you can import it in {}
+        example : let age = 50 ;
+                console.log("My age is {age}")
 
-
-
-
-
-
-
-
+--> 
