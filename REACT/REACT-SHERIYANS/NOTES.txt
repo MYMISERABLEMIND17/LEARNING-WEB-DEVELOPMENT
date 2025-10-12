@@ -7,6 +7,10 @@
         real dom => jo actually web ka structure hota hai , full dom tree 
         virtual dom => this is react ke khud ka dom which is the copy of the real dom toh ab agar khuch bhi update karns huaa toh fir vitual dom mai hoga .
         
+--> <> </> => empty tags , called fragements 
+--> App.jsx >> main.jsx >> html file >> browser 
+--> eslint => this helps in the make the custom rules 
+
 
 
 
