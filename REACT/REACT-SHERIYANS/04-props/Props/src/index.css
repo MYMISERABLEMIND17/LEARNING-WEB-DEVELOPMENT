@@ -1,0 +1,51 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+}
+html, 
+body {
+        height:100%;
+        width: 100%;
+        background-color: brown;
+
+}
+
+.card{
+        height: 300px;
+        width: 400px;
+        background-color: rgb(64, 112, 114);
+        text-align: center;
+        justify-content: center;
+        border: 5px solid #111;
+        padding: 10px;
+        
+        gap: 2px ; 
+        border-radius: 20px;
+}
+
+.parent {
+        padding: 20px ;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+}
+.about{
+        margin: 10px;
+}
+.image{
+        height: 100px ; 
+        width: 100px;
+        border: 1px solid rgb(47, 47, 47);
+        object-fit: cover;
+        border-radius: 50%;
+}
+
+.button {
+        background-color: #a26969;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 10px;
+        border: none;
+}
