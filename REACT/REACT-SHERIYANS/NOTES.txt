@@ -16,4 +16,9 @@
         example : let age = 50 ;
                 console.log("My age is {age}")
 
---> 
+--> OKAY ,so if we talk about components {
+        these are basically some reusable props , resuable part of the code 
+
+}
+
+-->OKAY ,so if we talk about props , then 
