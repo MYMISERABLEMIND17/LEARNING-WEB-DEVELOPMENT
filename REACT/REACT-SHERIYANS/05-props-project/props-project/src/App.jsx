@@ -1,16 +1,16 @@
 import './App.css'
-
+import Card from './components/card';
 function App() {
   
 
   return (
-    <>
+    
       <div className='parent'>
-        <h1>hello world</h1>
-        
+        <Card/>
+        <Card/>
       </div>
-    </>
+    
   )
 }
 
-export default App
+export default App ; 

@@ -21,4 +21,5 @@
 
 }
 
--->OKAY ,so if we talk about props , then 
+-->OKAY ,so if we talk about props , then these are Props (short for Properties) are a mechanism for passing data from a parent component down to a child component.
+-->npm install lucide-react
