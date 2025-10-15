@@ -9,8 +9,8 @@ const Card = () => {
                 <button className='save'>Save</button>
             </div>
             <div className='center'>
-                <h4 className='Company'>company name </h4>
-                <h2 className='job'> Senior UI/UX designer </h2>
+                <h4 className='company'>Amazon</h4>
+                <div className='job'> Senior UI/UX designer </div>
             </div>  
             <div className='bottom'>
                 <div className='time'>Part-Time</div>
