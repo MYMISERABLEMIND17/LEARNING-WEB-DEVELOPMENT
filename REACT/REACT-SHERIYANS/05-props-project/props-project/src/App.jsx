@@ -9,8 +9,6 @@ function App() {
         <Card/>
         <Card/>
         <Card/>
-    
-
       </div>
     
   )
