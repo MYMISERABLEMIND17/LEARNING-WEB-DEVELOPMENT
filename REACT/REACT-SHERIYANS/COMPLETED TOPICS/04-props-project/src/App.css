@@ -1,0 +1,138 @@
+.fullbody{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: rgb(89, 91, 93);
+}
+
+.parent{
+
+  height: 320px;
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 20px;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(228, 225, 221);
+
+}
+
+.level1{
+  height: 90px;
+  border-radius: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profilepic{
+  border: 2px solid black;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+.save{
+  height: 30px;
+  width: 70px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-radius:10px ;
+  
+}
+.savetext{
+  justify-content: center;
+  padding: 3px;
+}
+.level2{
+  height: 150px;
+  /* border: 2px solid black; */
+}
+.level2a{
+  display: flex;
+  height: 50px;
+  align-items: baseline;
+}
+
+.companyname{
+  font-size:x-large;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.durationleft{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  height: 20px;
+  width: 50px;
+  padding: 3px;
+}
+.level2b{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.role{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.level2c{
+  display: flex;
+  align-items: baseline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-size: larger;
+
+}
+
+.time{
+  margin-right: 10px;
+  height: 20px;
+  width: 70px;
+  padding:5px;
+  border: 1px solid black;
+  background-color: rgb(188, 180, 180);
+  border-radius: 30px;
+  font-size:small;
+}
+.post{
+  font-size: small;
+  height: 20px;
+  width: 50px;
+  padding:5px;
+  border: 1px solid black;
+  background-color: rgb(188, 180, 180);
+  border-radius: 30px;
+}
+
+.level3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 50px;
+}
+.about{
+  
+}
+.money{
+  margin-bottom: 5px;
+  font-size: larger;
+  font-weight: 600;
+}
+.location{
+  font-size: small;
+  font-weight: 300;
+}
+
+.btn{
+  border-radius: 20px;
+  background-color: rgb(178, 172, 172);
+  background-color: rgb(24, 23, 23);
+  color:white
+  /* border: 1px solid black; */
+}
