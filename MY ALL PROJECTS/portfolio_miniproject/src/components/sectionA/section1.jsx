@@ -5,7 +5,7 @@ import Intrests from './intrests'
 
 const section1 = () => {
   return (
-    <div >
+    <div className='' >
       <Image/>
       <div>
         <About/>

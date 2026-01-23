@@ -4,8 +4,8 @@ import Right from './right'
 const section2 = () => {
   return (
     <div>
-      {/* <Left/>
-      <Right/> */}
+      <Left/>
+      <Right/>
     </div>
   )
 }

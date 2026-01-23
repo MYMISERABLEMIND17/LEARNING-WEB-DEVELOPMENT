@@ -9,7 +9,7 @@ h1.addEventListener("change" , function(){
 window.addEventListener("keydown", function(change){
 
     if(change.key === " "){
-       h1.textContent = "Space" ;
+            h1.textContent = "Space" ;
     }
     else{
         h1.textContent = change.key ;
