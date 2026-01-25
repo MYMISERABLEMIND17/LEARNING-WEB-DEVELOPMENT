@@ -11,7 +11,7 @@ function App() {
           console.log(prop.target.value);
         }}></input>
 
-        
+          
     </>
   )
 }
