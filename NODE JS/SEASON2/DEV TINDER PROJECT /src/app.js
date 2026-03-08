@@ -19,8 +19,6 @@ app.put("/home/profile1" , (req , res) =>{
   res.send(" this is the put call ")
 })
 
-
-
 app.use("/home/profile1" , (req , res) => {
   res.send("this is the profile 1 ") ; 
 })
