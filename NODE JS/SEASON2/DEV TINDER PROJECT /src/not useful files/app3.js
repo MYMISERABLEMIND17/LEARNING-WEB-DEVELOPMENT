@@ -1,7 +1,7 @@
 const express = require("express")
 const app3 = express() ; 
 
-const {admincheck} = require("./middleware/admincheck")
+const {admincheck} = require("../middleware/admincheck")
 
 app3.listen("3002 " , ()=>{
   console.log("server start at 3002");
